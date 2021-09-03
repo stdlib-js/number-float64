@@ -55,6 +55,12 @@ The namespace contains the following:
 
 <!-- <toc pattern="*"> -->
 
+<div class="namespace-toc">
+
+-   <span class="signature">[`base`][@stdlib/number/float64/base]</span><span class="delimiter">: </span><span class="description">base utilities for double-precision floating-point numbers.</span>
+
+</div>
+
 <!-- </toc> -->
 
 </section>
@@ -134,6 +140,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/number-float64/main/LICENSE
+
+<!-- <toc-links> -->
+
+[@stdlib/number/float64/base]: https://github.com/stdlib-js/number-float64-base
+
+<!-- </toc-links> -->
 
 </section>
 
