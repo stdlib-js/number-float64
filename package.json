@@ -37,6 +37,8 @@
   },
   "dependencies": {
     "@stdlib/number-float64-base": "^0.0.x",
+    "@stdlib/number-float64-reviver": "^0.0.x",
+    "@stdlib/number-float64-to-json": "^0.0.x",
     "@stdlib/utils-define-read-only-property": "^0.0.x"
   },
   "devDependencies": {
@@ -48,6 +50,7 @@
     "@stdlib/assert-has-own-property": "^0.0.x",
     "@stdlib/assert-is-array": "^0.0.x",
     "@stdlib/assert-is-boolean": "^0.0.x",
+    "@stdlib/assert-is-float64array": "^0.0.x",
     "@stdlib/assert-is-little-endian": "^0.0.x",
     "@stdlib/assert-is-node": "^0.0.x",
     "@stdlib/assert-is-number": "^0.0.x",
@@ -56,6 +59,7 @@
     "@stdlib/assert-is-uint8array": "^0.0.x",
     "@stdlib/assert-is-windows": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
+    "@stdlib/boolean-ctor": "^0.0.x",
     "@stdlib/constants-float64-exponent-bias": "^0.0.x",
     "@stdlib/constants-float64-high-word-exponent-mask": "^0.0.x",
     "@stdlib/constants-float64-ninf": "^0.0.x",
@@ -87,12 +91,12 @@
     "@stdlib/number-float64-base-to-int64-bytes": "^0.0.x",
     "@stdlib/number-float64-base-to-uint32": "^0.0.x",
     "@stdlib/number-float64-base-to-words": "^0.0.x",
-    "@stdlib/number-float64-to-json": "^0.0.x",
     "@stdlib/number-uint8-base-to-binary-string": "^0.0.x",
     "@stdlib/process-node-version": "^0.0.x",
     "@stdlib/random-base-bernoulli": "^0.0.x",
     "@stdlib/random-base-discrete-uniform": "^0.0.x",
     "@stdlib/random-base-randu": "^0.0.x",
+    "@stdlib/random-base-uniform": "^0.0.x",
     "@stdlib/string-format": "^0.0.x",
     "@stdlib/string-left-pad": "^0.0.x",
     "@stdlib/string-repeat": "^0.0.x",
