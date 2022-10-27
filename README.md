@@ -66,6 +66,8 @@ The namespace contains the following:
 <div class="namespace-toc">
 
 -   <span class="signature">[`base`][@stdlib/number/float64/base]</span><span class="delimiter">: </span><span class="description">base utilities for double-precision floating-point numbers.</span>
+-   <span class="signature">[`reviver( key, value )`][@stdlib/number/float64/reviver]</span><span class="delimiter">: </span><span class="description">revive a JSON-serialized number.</span>
+-   <span class="signature">[`toJSON( x )`][@stdlib/number/float64/to-json]</span><span class="delimiter">: </span><span class="description">return a JSON representation of a number.</span>
 
 </div>
 
@@ -174,6 +176,10 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 <!-- <toc-links> -->
 
 [@stdlib/number/float64/base]: https://github.com/stdlib-js/number-float64-base
+
+[@stdlib/number/float64/reviver]: https://github.com/stdlib-js/number-float64-reviver
+
+[@stdlib/number/float64/to-json]: https://github.com/stdlib-js/number-float64-to-json
 
 <!-- </toc-links> -->
 
