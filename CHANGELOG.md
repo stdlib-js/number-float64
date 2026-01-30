@@ -2,14 +2,24 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-08-18)
+## 0.3.0 (2026-01-30)
 
 <section class="features">
 
 ### Features
 
+-   [`aa0c054`](https://github.com/stdlib-js/stdlib/commit/aa0c05478633005f146d6ddde6113f935f50e8da) - add `number/float64/base/sub3` [(#9778)](https://github.com/stdlib-js/stdlib/pull/9778)
+-   [`e27a9fb`](https://github.com/stdlib-js/stdlib/commit/e27a9fb6b0bcb7d131e3d9c02a9755459e4d65de) - add C implementation for `number/float64/base/to-float16` [(#9299)](https://github.com/stdlib-js/stdlib/pull/9299)
+-   [`d46e973`](https://github.com/stdlib-js/stdlib/commit/d46e97334b11c7fba92f42a999db865d8dc4fdd2) - update `number/float64/base/assert` TypeScript declarations [(#9203)](https://github.com/stdlib-js/stdlib/pull/9203)
+-   [`944d850`](https://github.com/stdlib-js/stdlib/commit/944d8507e3098c835182bc77b48f56b21e9f829f) - add `isAlmostSameValue` to namespace
+-   [`cb49481`](https://github.com/stdlib-js/stdlib/commit/cb494813a263590bf130b84692170027034bfe9b) - add `number/float64/base/assert/is-almost-same-value`
+-   [`91c8d6f`](https://github.com/stdlib-js/stdlib/commit/91c8d6fb9abb70ce88d6462416b9315ba7ccff78) - add `number/float64/base/to-float16` [(#8207)](https://github.com/stdlib-js/stdlib/pull/8207)
+-   [`4a62313`](https://github.com/stdlib-js/stdlib/commit/4a6231302d21f6fc21776091b2191bfdbf0cefe1) - update `number/float64/base` TypeScript declarations
+-   [`f114dad`](https://github.com/stdlib-js/stdlib/commit/f114dad17c4ab240701b7c67aeb313aac7831eb7) - update `number/float64/base/assert` TypeScript declarations
+-   [`0cf2dd6`](https://github.com/stdlib-js/stdlib/commit/0cf2dd65ae1a209d306184a82c4226742bfa6103) - add `isAlmostEqual` exports to namespaces
+-   [`379cdb9`](https://github.com/stdlib-js/stdlib/commit/379cdb9ca96fc51e5f10d4addcef0e7775f03d21) - add missing `number/float64/base` exports to namespace
 -   [`d10932c`](https://github.com/stdlib-js/stdlib/commit/d10932c2a1f70d4b26332abd0bc80ea09848618a) - add `number/float64/base/assert/is-almost-equal`
 -   [`e38f5ec`](https://github.com/stdlib-js/stdlib/commit/e38f5ecf382db6ed19fc3b66d75801fbf9909843) - add `number/float64/base/assert/is-almost-equal-value` [(#7473)](https://github.com/stdlib-js/stdlib/pull/7473)
 -   [`08a8de6`](https://github.com/stdlib-js/stdlib/commit/08a8de62e303504f0e7eb164cb4ac04aa7455c01) - add remaining implementation for `number/float64/base/ulp-difference` [(#7446)](https://github.com/stdlib-js/stdlib/pull/7446)
@@ -31,9 +41,9 @@
 
 ### Closed Issues
 
-A total of 7 issues were closed in this release:
+A total of 10 issues were closed in this release:
 
-[#5347](https://github.com/stdlib-js/stdlib/issues/5347), [#5501](https://github.com/stdlib-js/stdlib/issues/5501), [#6588](https://github.com/stdlib-js/stdlib/issues/6588), [#7337](https://github.com/stdlib-js/stdlib/issues/7337), [#7349](https://github.com/stdlib-js/stdlib/issues/7349), [#7393](https://github.com/stdlib-js/stdlib/issues/7393), [#7532](https://github.com/stdlib-js/stdlib/issues/7532)
+[#5347](https://github.com/stdlib-js/stdlib/issues/5347), [#5501](https://github.com/stdlib-js/stdlib/issues/5501), [#6588](https://github.com/stdlib-js/stdlib/issues/6588), [#7337](https://github.com/stdlib-js/stdlib/issues/7337), [#7349](https://github.com/stdlib-js/stdlib/issues/7349), [#7393](https://github.com/stdlib-js/stdlib/issues/7393), [#7532](https://github.com/stdlib-js/stdlib/issues/7532), [#8877](https://github.com/stdlib-js/stdlib/issues/8877), [#8895](https://github.com/stdlib-js/stdlib/issues/8895), [#9777](https://github.com/stdlib-js/stdlib/issues/9777)
 
 </section>
 
@@ -45,6 +55,25 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`aa0c054`](https://github.com/stdlib-js/stdlib/commit/aa0c05478633005f146d6ddde6113f935f50e8da) - **feat:** add `number/float64/base/sub3` [(#9778)](https://github.com/stdlib-js/stdlib/pull/9778) _(by Sachin Pangal, Neeraj Pathak)_
+-   [`2b51497`](https://github.com/stdlib-js/stdlib/commit/2b514972090db1f2361e3e932bdcee8bbcdedfb7) - **chore:** add structured package data for `number/float64/base/div` [(#9490)](https://github.com/stdlib-js/stdlib/pull/9490) _(by Neeraj Pathak)_
+-   [`6ce0275`](https://github.com/stdlib-js/stdlib/commit/6ce0275d3eec598ce3ecb8da74a1c82f0de3a482) - **docs:** remove incorrect hyphens from JSDoc `returns` annotations _(by Philipp Burckhardt)_
+-   [`e27a9fb`](https://github.com/stdlib-js/stdlib/commit/e27a9fb6b0bcb7d131e3d9c02a9755459e4d65de) - **feat:** add C implementation for `number/float64/base/to-float16` [(#9299)](https://github.com/stdlib-js/stdlib/pull/9299) _(by Gururaj Gurram)_
+-   [`d46e973`](https://github.com/stdlib-js/stdlib/commit/d46e97334b11c7fba92f42a999db865d8dc4fdd2) - **feat:** update `number/float64/base/assert` TypeScript declarations [(#9203)](https://github.com/stdlib-js/stdlib/pull/9203) _(by stdlib-bot)_
+-   [`de9dec4`](https://github.com/stdlib-js/stdlib/commit/de9dec49411a9f71d800970e9324e87dca52098b) - **docs:** update namespace table of contents [(#9205)](https://github.com/stdlib-js/stdlib/pull/9205) _(by stdlib-bot)_
+-   [`944d850`](https://github.com/stdlib-js/stdlib/commit/944d8507e3098c835182bc77b48f56b21e9f829f) - **feat:** add `isAlmostSameValue` to namespace _(by Athan Reines)_
+-   [`cb49481`](https://github.com/stdlib-js/stdlib/commit/cb494813a263590bf130b84692170027034bfe9b) - **feat:** add `number/float64/base/assert/is-almost-same-value` _(by Athan Reines)_
+-   [`5d190d4`](https://github.com/stdlib-js/stdlib/commit/5d190d495ee70092784ff21a7fd0d46d1e6ac2a4) - **chore:** fix C lint errors [(#8896)](https://github.com/stdlib-js/stdlib/pull/8896) _(by Geo Daoyu)_
+-   [`26cdd2f`](https://github.com/stdlib-js/stdlib/commit/26cdd2ffb32ecb9fc209026cf9488a895891b7df) - **chore:** fix C lint errors [(#8880)](https://github.com/stdlib-js/stdlib/pull/8880) _(by Geo Daoyu)_
+-   [`91c8d6f`](https://github.com/stdlib-js/stdlib/commit/91c8d6fb9abb70ce88d6462416b9315ba7ccff78) - **feat:** add `number/float64/base/to-float16` [(#8207)](https://github.com/stdlib-js/stdlib/pull/8207) _(by Gururaj Gurram, Athan Reines)_
+-   [`7db5b32`](https://github.com/stdlib-js/stdlib/commit/7db5b32afe976e2d3c216a45e0927c88e668d340) - **chore:** add `alias_prefix` to parent namespaces [(#8540)](https://github.com/stdlib-js/stdlib/pull/8540) _(by Gunj Joshi)_
+-   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
+-   [`4a62313`](https://github.com/stdlib-js/stdlib/commit/4a6231302d21f6fc21776091b2191bfdbf0cefe1) - **feat:** update `number/float64/base` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`f114dad`](https://github.com/stdlib-js/stdlib/commit/f114dad17c4ab240701b7c67aeb313aac7831eb7) - **feat:** update `number/float64/base/assert` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`af59fdf`](https://github.com/stdlib-js/stdlib/commit/af59fdfb5f2aae5ced449bd6ccddc012047f0089) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`0cf2dd6`](https://github.com/stdlib-js/stdlib/commit/0cf2dd65ae1a209d306184a82c4226742bfa6103) - **feat:** add `isAlmostEqual` exports to namespaces _(by Philipp Burckhardt)_
+-   [`379cdb9`](https://github.com/stdlib-js/stdlib/commit/379cdb9ca96fc51e5f10d4addcef0e7775f03d21) - **feat:** add missing `number/float64/base` exports to namespace _(by Philipp Burckhardt)_
+-   [`21ec206`](https://github.com/stdlib-js/stdlib/commit/21ec2060d7496322ce32d4f984230d0c131974cc) - **docs:** clean-up example code _(by Philipp Burckhardt)_
 -   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
@@ -54,7 +83,7 @@ A total of 7 issues were closed in this release:
 -   [`409c1ff`](https://github.com/stdlib-js/stdlib/commit/409c1ff7475d0f0d38f3efb596739cf89686ca83) - **remove:** remove `number/float64/base/assert/is-almost-equal-value` _(by Karan Anand)_
 -   [`d10932c`](https://github.com/stdlib-js/stdlib/commit/d10932c2a1f70d4b26332abd0bc80ea09848618a) - **feat:** add `number/float64/base/assert/is-almost-equal` _(by Karan Anand)_
 -   [`bc8edad`](https://github.com/stdlib-js/stdlib/commit/bc8edad112684c9bb6aa1e05f76bdb8a9e1f331c) - **docs:** fix examples _(by Karan Anand)_
--   [`f40cc8a`](https://github.com/stdlib-js/stdlib/commit/f40cc8a1d95b98379b0abb257bf5672b795f6a0b) - **chore:** fix C lint errors [(#7533)](https://github.com/stdlib-js/stdlib/pull/7533) _(by zhanggy)_
+-   [`f40cc8a`](https://github.com/stdlib-js/stdlib/commit/f40cc8a1d95b98379b0abb257bf5672b795f6a0b) - **chore:** fix C lint errors [(#7533)](https://github.com/stdlib-js/stdlib/pull/7533) _(by Geo Daoyu)_
 -   [`e38f5ec`](https://github.com/stdlib-js/stdlib/commit/e38f5ecf382db6ed19fc3b66d75801fbf9909843) - **feat:** add `number/float64/base/assert/is-almost-equal-value` [(#7473)](https://github.com/stdlib-js/stdlib/pull/7473) _(by Karan Anand, Athan Reines)_
 -   [`0f53f18`](https://github.com/stdlib-js/stdlib/commit/0f53f18dee21a8e81a70eadd090b59223c264802) - **docs:** fix comment _(by Karan Anand)_
 -   [`08a8de6`](https://github.com/stdlib-js/stdlib/commit/08a8de62e303504f0e7eb164cb4ac04aa7455c01) - **feat:** add remaining implementation for `number/float64/base/ulp-difference` [(#7446)](https://github.com/stdlib-js/stdlib/pull/7446) _(by Karan Anand, Athan Reines)_
@@ -64,7 +93,7 @@ A total of 7 issues were closed in this release:
 -   [`fe7b8b6`](https://github.com/stdlib-js/stdlib/commit/fe7b8b60c99a3224267122ef12ebb5f6d917e076) - **feat:** add initial implementation of `number/float64/base/ulp-difference` _(by Athan Reines)_
 -   [`07d3925`](https://github.com/stdlib-js/stdlib/commit/07d3925116182268a9acdac0b0e301d3e527e4f0) - **chore:** fix EditorConfig lint errors [(#7398)](https://github.com/stdlib-js/stdlib/pull/7398) _(by Lokesh Ranjan)_
 -   [`eff9b74`](https://github.com/stdlib-js/stdlib/commit/eff9b74602cd76a308c6518e1de5bd383b24b138) - **chore:** fix EditorConfig lint errors [(#7356)](https://github.com/stdlib-js/stdlib/pull/7356) _(by Lokesh Ranjan)_
--   [`930d012`](https://github.com/stdlib-js/stdlib/commit/930d012685e0d75e6c0de8d80de7a39d67565e79) - **chore:** fix C lint errors [(#7338)](https://github.com/stdlib-js/stdlib/pull/7338) _(by zhanggy)_
+-   [`930d012`](https://github.com/stdlib-js/stdlib/commit/930d012685e0d75e6c0de8d80de7a39d67565e79) - **chore:** fix C lint errors [(#7338)](https://github.com/stdlib-js/stdlib/pull/7338) _(by Geo Daoyu)_
 -   [`5896836`](https://github.com/stdlib-js/stdlib/commit/5896836635aa28aba7c97b3f21d32735d867c43b) - **build:** add package meta data _(by Athan Reines)_
 -   [`6c6fd79`](https://github.com/stdlib-js/stdlib/commit/6c6fd79627e1c79e5f98e53a05456057986c911a) - **build:** add package meta data _(by Athan Reines)_
 -   [`6803252`](https://github.com/stdlib-js/stdlib/commit/68032524e51f5f6b82e06e13253836ec5a539c40) - **build:** add package meta data _(by Athan Reines)_
@@ -76,7 +105,7 @@ A total of 7 issues were closed in this release:
 -   [`8f4f7b9`](https://github.com/stdlib-js/stdlib/commit/8f4f7b90e5411e921fc7eca8c365873e8db639e3) - **refactor:** rename file [(#6128)](https://github.com/stdlib-js/stdlib/pull/6128) _(by Gururaj Gurram)_
 -   [`5bad5d8`](https://github.com/stdlib-js/stdlib/commit/5bad5d87849f385886e7f8f4a8f254bf58328b47) - **feat:** add `number/float64/base/identity` _(by Gururaj Gurram)_
 -   [`4fdea8f`](https://github.com/stdlib-js/stdlib/commit/4fdea8f772529eba17f6045c4188b1674d97b432) - **chore:** fix EditorConfig lint errors [(#5514)](https://github.com/stdlib-js/stdlib/pull/5514) _(by Justyn Shelby)_
--   [`35df6a5`](https://github.com/stdlib-js/stdlib/commit/35df6a54d1f8f054205b51e5f4e6700cb7fb2ed5) - **chore:** fix C lint errors [(#5354)](https://github.com/stdlib-js/stdlib/pull/5354) _(by GK Bishnoi)_
+-   [`35df6a5`](https://github.com/stdlib-js/stdlib/commit/35df6a54d1f8f054205b51e5f4e6700cb7fb2ed5) - **chore:** fix C lint errors [(#5354)](https://github.com/stdlib-js/stdlib/pull/5354) _(by Gopi Kishan)_
 -   [`92761ec`](https://github.com/stdlib-js/stdlib/commit/92761ec746d55b5cd6d48a06276b5e1bffe2cfb0) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`2dc9e44`](https://github.com/stdlib-js/stdlib/commit/2dc9e440be9f5037024598969521418dcbba8ee0) - **feat:** add `number/float64/base/sub` _(by Gururaj Gurram)_
 -   [`e910b33`](https://github.com/stdlib-js/stdlib/commit/e910b3362443e36936a6f3705daf63e032d891dc) - **refactor:** update paths _(by Gururaj Gurram)_
@@ -102,18 +131,21 @@ A total of 7 issues were closed in this release:
 
 ### Contributors
 
-A total of 10 people contributed to this release. Thank you to the following contributors:
+A total of 13 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
--   GK Bishnoi
+-   Geo Daoyu
+-   Gopi Kishan
+-   Gunj Joshi
 -   Gururaj Gurram
 -   Justyn Shelby
 -   Karan Anand
 -   Lokesh Ranjan
 -   MANI
 -   Mahfuza Humayra Mohona
+-   Neeraj Pathak
 -   Philipp Burckhardt
--   zhanggy
+-   Sachin Pangal
 
 </section>
 
